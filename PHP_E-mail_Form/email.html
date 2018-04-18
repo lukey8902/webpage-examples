@@ -1,4 +1,37 @@
 <html>
+<style>
+.gradient {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  padding: 10px 20px;
+  border: 1px solid #b7b7b7;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  font: normal 16px/normal "Times New Roman", Times, serif;
+  color: rgba(0,0,0,0);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(-23deg, rgba(255,0,0,1) 0, rgba(0,0,0,0.69) 46%, rgba(0,239,239,1) 100%);
+  background: -moz-linear-gradient(113deg, rgba(255,0,0,1) 0, rgba(0,0,0,0.69) 46%, rgba(0,239,239,1) 100%);
+  background: linear-gradient(113deg, rgba(255,0,0,1) 0, rgba(0,0,0,0.69) 46%, rgba(0,239,239,1) 100%);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+  -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+</style>
 <title>
 E-mail Us
 </title>
@@ -10,7 +43,7 @@ E-mail Us
   <label for="first_name">First Name *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="first_name" maxlength="50" size="30">
+  <input  type="text" name="first_name" maxlength="50" size="30" class="gradient">
  </td>
 </tr>
 <tr>
@@ -18,7 +51,7 @@ E-mail Us
   <label for="last_name">Last Name *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="last_name" maxlength="50" size="30">
+  <input  type="text" name="last_name" maxlength="50" size="30" class="gradient">
  </td>
 </tr>
 <tr>
@@ -26,7 +59,7 @@ E-mail Us
   <label for="email">Email Address *</label>
  </td>
  <td valign="top">
-  <input  type="text" name="email" maxlength="80" size="30">
+  <input  type="text" name="email" maxlength="80" size="30" class="gradient">
  </td>
 </tr>
 <tr>
@@ -34,7 +67,7 @@ E-mail Us
   <label for="telephone">Telephone Number</label>
  </td>
  <td valign="top">
-  <input  type="number" name="telephone">
+  <input  type="number" name="telephone" class="gradient">
  </td>
 </tr>
 <tr>
@@ -42,7 +75,7 @@ E-mail Us
   <label for="comments">Comments *</label>
  </td>
  <td valign="top">
-  <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
+  <textarea  name="comments" maxlength="1000" cols="25" rows="6" class="gradient"></textarea>
  </td>
 </tr>
 <tr>
