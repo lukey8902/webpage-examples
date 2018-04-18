@@ -1,4 +1,4 @@
-<html>
+<html><link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w" crossorigin="anonymous">
 <style>
 .gradient {
   display: inline-block;
@@ -31,47 +31,55 @@
   -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
   transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
 }
+tr.spaceUndder>td {
+  padding-bottom: 1em;
+}
+.tableright {
+        border-right: 1px solid white;
+        border-left: 1px solid white;
+}
 </style>
 <title>
 E-mail Us
 </title>
-<head align=center><h1><b> E-Mail </b></h1></head>
-<form name="contactform" method="post" action="send_form_email.php" class="pure-form">
-<table>
-<tr>
- <td valign="top">
+<body bgcolor=black><font color="#66ff33"><br><br>
+<form name="contactform" method="post" action="send_form_email.php" align=center>
+<table border="1" rules="rows" class="tableright" align=center>
+<tr class="spaceUnder"><td align=center colspan="2"><font color="#66ff33"><h1><b>E-Mail Us</b></h1></font></td></tr>
+<tr class="spaceUnder">
+ <td valign="top"><font color="#66ff33">
   <label for="first_name">First Name *</label>
  </td>
  <td valign="top">
   <input  type="text" name="first_name" maxlength="50" size="30" class="gradient">
  </td>
 </tr>
-<tr>
- <td valign="top">
+<tr class="spaceUnder">
+ <td valign="top"><font color="#66ff33">
   <label for="last_name">Last Name *</label>
  </td>
  <td valign="top">
   <input  type="text" name="last_name" maxlength="50" size="30" class="gradient">
  </td>
 </tr>
-<tr>
- <td valign="top">
+<tr class="spaceUnder">
+ <td valign="top"><font color="#66ff33">
   <label for="email">Email Address *</label>
  </td>
  <td valign="top">
   <input  type="text" name="email" maxlength="80" size="30" class="gradient">
  </td>
 </tr>
-<tr>
- <td valign="top">
+<tr class="spaceUnder">
+ <td valign="top"><font color="#66ff33">
   <label for="telephone">Telephone Number</label>
  </td>
  <td valign="top">
   <input  type="number" name="telephone" class="gradient">
  </td>
 </tr>
-<tr>
- <td valign="top">
+<tr class="spaceUnder">
+ <td valign="top"><font color="#66ff33">
   <label for="comments">Comments *</label>
  </td>
  <td valign="top">
@@ -79,8 +87,8 @@ E-mail Us
  </td>
 </tr>
 <tr>
- <td colspan="2" style="text-align:center">
-  <input type="submit" value="Submit">
+ <td colspan="2" align=center>
+  <input type="submit" value="Submit" class="gradient">
  </td>
 </tr>
 </table>
